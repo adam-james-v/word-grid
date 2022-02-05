@@ -1,0 +1,199 @@
+#root {
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+html, body {touch-action: none;}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font: 17px/1.6 Georgia, "Times New Roman", Times, serif;
+}
+
+table, input {
+  font-size: 16px;
+}
+
+button, select {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+text {
+  /* font-family: monospace; */
+  /* fill: #2e3440; */
+  stroke: none;
+}
+
+.ln {
+  stroke: #2e3440;
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+.ln-d {
+  stroke: #2e3440;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 4, 5;
+}
+
+.clr {
+  fill: none;
+}
+
+.attn {
+  fill: rgb(234, 82, 111);
+}
+
+.attn-ln {
+  stroke: rgb(234, 82, 111);
+  stroke-width: 3px;
+}
+
+.face {
+  fill: #a3be8c;
+  fill-rule: evenodd;
+}
+
+rect, line, path, polygon, polyline, circle {
+  vector-effect: non-scaling-stroke;
+}
+
+table {
+  width: auto;
+}
+
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+table ul {
+  list-style-type: none;
+  padding-left: 4px;
+  margin: 0;
+}
+
+table li:before {
+  content: ▢ ;
+}
+
+table p {
+  margin: 0;
+}
+
+.figure {
+  padding-left: 7px;
+}
+
+.figure p {
+  font-size: smaller;
+  font-style: italic;
+}
+
+code {
+  font-size: 0.75em;
+}
+
+code.block {
+  padding: 8px;
+  background: #2e3440;
+  color: #dedee9;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (print) {
+
+  .pagebreak {
+    page-break-after: always;
+  }
+
+}
+
+a {
+  color: #07c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #059;
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  margin: 25px 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+td, th {
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+td, th, hr {
+  border-bottom: 1px solid #ddd;
+}
+
+pre {
+  padding: 8px;
+  white-space: pre-wrap;
+}
+
+button, select {
+  background: #ddd;
+  border: 0;
+  padding: 9px 20px;
+}
+
+input {
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+button:hover {
+  background: #eee;
+}
+
+textarea {
+  border-color: #ccc;
+}

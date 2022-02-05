@@ -1,0 +1,14 @@
+{:source-paths ["src"]
+
+ :dependencies
+ [[io.github.adam-james-v/svg-clj "0.0.11"]
+  [reagent "0.8.1"]]
+
+ :nrepl {:port 7889}
+ 
+ :builds {:app {:target :browser
+                :modules {:main {:init-fn word-grid.app/init}}
+                :compiler-options {:infer-externs :auto}
+                :output-dir "public/js"
+                :asset-path "/js"
+                :devtools {:http-root "public" :http-port 8081}}}}
